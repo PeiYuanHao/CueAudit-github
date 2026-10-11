@@ -7,3 +7,5 @@ budget-terminated findings. Identify limitations and required human review.
 Association alone does not establish model reliance, model sensitivity alone
 does not establish a causal defect, and an unmeasured route is not a negative
 finding. Never fill missing quantitative fields with generated values.
+
+Full public workspace and source status: [openclaw/workspaces/summarize](../openclaw/workspaces/summarize).

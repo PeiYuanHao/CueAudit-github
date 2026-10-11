@@ -6,3 +6,5 @@ Prefer executable quantitative evidence; retain unavailable routes as unsupporte
 Use fixed screening policies for escalation. Preserve explicit subset-verification
 rationales and budget stops. Route measurements to Quantitative and uncertain
 sample observations to Qualitative. Pass actual outputs to Summarize.
+
+Full public workspace and source status: [openclaw/workspaces/executive](../openclaw/workspaces/executive).

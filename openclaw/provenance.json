@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "inspection_date": "2026-10-11",
+  "historical_run_snapshot": false,
+  "installed_runtime_observed": "OpenClaw 2026.3.12 (6472949)",
+  "current_model_identifier_observed": "openai-codex/gpt-5.5",
+  "historical_model_and_sampling_parameters": "Not established by the inspected current configuration",
+  "roles": [
+    {
+      "role": "identify",
+      "files_inspected": [
+        "AGENTS.md",
+        "SOUL.md",
+        "TOOLS.md"
+      ],
+      "original_soul_sha256": "1e6506c761df48330121989f8c3a0928c2468f0d63fdc4a4614f58fffb251b67",
+      "source_contains_role_specific_method": true,
+      "public_workspace": "Release-engineering template, not a verbatim historical workspace",
+      "public_file_sha256": {
+        "AGENTS.md": "71d5e5fa3473717df4c367f49dad15f7b3d02371b3dc9d7477fde1bdbe6beb1f",
+        "HEARTBEAT.md": "c665182ee676848de3e317f3eaccb3e8358d834a5eb7a3cf3fef0a034cf0ad40",
+        "IDENTITY.md": "64ef808b8ce8676ac66f400e4332abeaf20f02277df0589562f15d16bd846f3f",
+        "ORIGINAL_METHOD.md": "9a498fbc58343d2972f21ae595e950e1588d45db1f2c45db1698eca5a4db8aa8",
+        "SOUL.md": "9af3a5e1d942e51791e3f76aeb6dc2c749582ecb5f958b61b8a305d30c70c48d",
+        "SOURCE.md": "4515f91dff378635aae5edadb244d2ce645116e988f108b646abee7176154c8b",
+        "TOOLS.md": "fc9ebae1de0a8f8c7a864b1af16c0c6838dc5456242c2252a8650a7eb910c126",
+        "USER.md": "681d8c521493dd486840e71470af9189809c82b61098ba21c814edfbf614100a"
+      }
+    },
+    {
+      "role": "executive",
+      "files_inspected": [
+        "AGENTS.md",
+        "SOUL.md",
+        "TOOLS.md"
+      ],
+      "original_soul_sha256": "8c2db3e6317db79f51c5a1db510a7652151b7dce5c733d92cf0583145911fe6f",
+      "source_contains_role_specific_method": true,
+      "public_workspace": "Release-engineering template, not a verbatim historical workspace",
+      "public_file_sha256": {
+        "AGENTS.md": "90a1b60f00c803460e93eb6aa4087a8ef715dbd6208213f80db3f5016847af63",
+        "HEARTBEAT.md": "c665182ee676848de3e317f3eaccb3e8358d834a5eb7a3cf3fef0a034cf0ad40",
+        "IDENTITY.md": "560ac62d5904facfff48d53e5b72bc0d745b1c54e1c15a2c4240b4124c858d82",
+        "ORIGINAL_METHOD.md": "ac115687c665123001b5157a61a635687a79517ee37dbb870e3df178f9b61a93",
+        "SOUL.md": "176273b6d2b81fe225a73a291d8eb10e1caad6172079412eeae351ad6444d80f",
+        "SOURCE.md": "4515f91dff378635aae5edadb244d2ce645116e988f108b646abee7176154c8b",
+        "TOOLS.md": "fc9ebae1de0a8f8c7a864b1af16c0c6838dc5456242c2252a8650a7eb910c126",
+        "USER.md": "681d8c521493dd486840e71470af9189809c82b61098ba21c814edfbf614100a"
+      }
+    },
+    {
+      "role": "quantitative",
+      "files_inspected": [
+        "AGENTS.md",
+        "SOUL.md",
+        "TOOLS.md"
+      ],
+      "original_soul_sha256": "95c467f710183b2c0397c29ec4ef886bb723671a39ee767dc4d59165f723b68f",
+      "source_contains_role_specific_method": false,
+      "public_workspace": "Release-engineering template, not a verbatim historical workspace",
+      "public_file_sha256": {
+        "AGENTS.md": "b3fceb28a41dc852a66ed52b1f8418d5789db13b7f5a3bd7293712bcba906437",
+        "HEARTBEAT.md": "c665182ee676848de3e317f3eaccb3e8358d834a5eb7a3cf3fef0a034cf0ad40",
+        "IDENTITY.md": "eb50722ccfc6e390afb2c8489c204f8f124d676e0d0a1f1a167079de84aa4cf7",
+        "SOUL.md": "b7ba0e2fd8871415fffc1484a75b4bc5cadbd86fe59f656278e59824644e7939",
+        "SOURCE.md": "459b02a708a6438658e2dce50fbd812f647c2e28e812b26811f29e5f979183c2",
+        "TOOLS.md": "fc9ebae1de0a8f8c7a864b1af16c0c6838dc5456242c2252a8650a7eb910c126",
+        "USER.md": "681d8c521493dd486840e71470af9189809c82b61098ba21c814edfbf614100a"
+      }
+    },
+    {
+      "role": "qualitative",
+      "files_inspected": [
+        "AGENTS.md",
+        "SOUL.md",
+        "TOOLS.md"
+      ],
+      "original_soul_sha256": "95c467f710183b2c0397c29ec4ef886bb723671a39ee767dc4d59165f723b68f",
+      "source_contains_role_specific_method": false,
+      "public_workspace": "Release-engineering template, not a verbatim historical workspace",
+      "public_file_sha256": {
+        "AGENTS.md": "7e3ca67ddf925eb4d84b776eb9199cf8bb0b7972d61732e66a6cb8ee1fbdbb3b",
+        "HEARTBEAT.md": "c665182ee676848de3e317f3eaccb3e8358d834a5eb7a3cf3fef0a034cf0ad40",
+        "IDENTITY.md": "3c82015f5b1dea6caaf73dcba5de3bbf31160b338c66ea8881acabe9d44d7233",
+        "SOUL.md": "daef1ee97544c77df9ff2b1e2e0887ef11092c1d722669709e843ad9b0214a34",
+        "SOURCE.md": "459b02a708a6438658e2dce50fbd812f647c2e28e812b26811f29e5f979183c2",
+        "TOOLS.md": "fc9ebae1de0a8f8c7a864b1af16c0c6838dc5456242c2252a8650a7eb910c126",
+        "USER.md": "681d8c521493dd486840e71470af9189809c82b61098ba21c814edfbf614100a"
+      }
+    },
+    {
+      "role": "summarize",
+      "files_inspected": [
+        "AGENTS.md",
+        "SOUL.md",
+        "TOOLS.md"
+      ],
+      "original_soul_sha256": "95c467f710183b2c0397c29ec4ef886bb723671a39ee767dc4d59165f723b68f",
+      "source_contains_role_specific_method": false,
+      "public_workspace": "Release-engineering template, not a verbatim historical workspace",
+      "public_file_sha256": {
+        "AGENTS.md": "7cc1f0b744259d6880728b44df7187841012d4962a5678a82650232e5d0c9336",
+        "HEARTBEAT.md": "c665182ee676848de3e317f3eaccb3e8358d834a5eb7a3cf3fef0a034cf0ad40",
+        "IDENTITY.md": "b7db50c02b1253016fcfe6d268b8c701c195b2118c0508996b86699441b80d5d",
+        "SOUL.md": "a375c29a483f0318555ced9b58096964f7b33c788f3db4de5326737ecdb631d9",
+        "SOURCE.md": "459b02a708a6438658e2dce50fbd812f647c2e28e812b26811f29e5f979183c2",
+        "TOOLS.md": "fc9ebae1de0a8f8c7a864b1af16c0c6838dc5456242c2252a8650a7eb910c126",
+        "USER.md": "681d8c521493dd486840e71470af9189809c82b61098ba21c814edfbf614100a"
+      }
+    }
+  ],
+  "validation": {
+    "offline_handoffs": "Passed on invented metadata",
+    "config_schema": "Validated by installed OpenClaw 2026.3.12",
+    "live_model_turns": "Not executed",
+    "historical_experiment_outputs": "Not included"
+  },
+  "public_digest_encoding": "UTF-8 with LF line endings; original source digests use original raw bytes"
+}

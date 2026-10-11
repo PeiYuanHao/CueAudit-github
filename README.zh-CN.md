@@ -43,8 +43,18 @@ python -m pip install -e ".[images]"
 模型升级规则为平均配对下降 > 30 个百分点。这些是操作阈值，不是显著性检验。
 缺少输入、执行失败、预算终止与低于阈值分别记录，不被合并为“没有捷径”。
 
-Python 流程可独立运行。OpenClaw 模板需要自行配置工作空间和路由，仓库未提供
-自动五智能体调度器。训练与数据集特定验证脚本由使用者提供。
+Python 流程可独立运行。`openclaw/workspaces/` 提供五个角色的完整公开模板，
+并附有独立配置生成器、交接协议和受限接入程序。原始方法摘录与本次新增模板
+分别标注。训练与数据集特定验证脚本由使用者提供。
+
+生成上述示例输入后，可运行无模型的五角色交接检查：
+
+```powershell
+python examples/run_five_roles.py --mode offline --output outputs/five-role-demo
+```
+
+该模式使用固定回复检查流程，不调用语言模型，也不证明历史实验结果。
+真实 OpenClaw 模式需要自行配置模型与认证；本次未执行真实模型调用。
 
 详见[接口说明](docs/interface.md)、[OpenClaw 配置说明](docs/openclaw.md)
 和[公开范围](docs/release-scope.md)。初始版本尚未选择软件复用许可证。

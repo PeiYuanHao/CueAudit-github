@@ -1,0 +1,44 @@
+{
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "CHOOSE_PROVIDER/CHOOSE_MODEL",
+        "fallbacks": []
+      },
+      "maxConcurrent": 4
+    },
+    "list": [
+      {
+        "id": "identify_agent",
+        "workspace": "LOCAL_WORKSPACES/identify",
+        "agentDir": "LOCAL_STATE/agents/identify_agent/agent"
+      },
+      {
+        "id": "executive_agent",
+        "workspace": "LOCAL_WORKSPACES/executive",
+        "agentDir": "LOCAL_STATE/agents/executive_agent/agent"
+      },
+      {
+        "id": "quantitative_agent",
+        "workspace": "LOCAL_WORKSPACES/quantitative",
+        "agentDir": "LOCAL_STATE/agents/quantitative_agent/agent"
+      },
+      {
+        "id": "qualitative_agent",
+        "workspace": "LOCAL_WORKSPACES/qualitative",
+        "agentDir": "LOCAL_STATE/agents/qualitative_agent/agent"
+      },
+      {
+        "id": "summarize_agent",
+        "workspace": "LOCAL_WORKSPACES/summarize",
+        "agentDir": "LOCAL_STATE/agents/summarize_agent/agent"
+      }
+    ]
+  },
+  "tools": {
+    "profile": "minimal",
+    "deny": [
+      "session_status"
+    ]
+  }
+}

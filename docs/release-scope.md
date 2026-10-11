@@ -17,8 +17,11 @@ source-tree history was imported.
 
 The Python pipeline, manifest interface, provenance records, CLI and tests are
 release engineering additions. They are not claimed to be the exact software
-snapshot used in the historical experiments. The five role templates describe
-the workflow; complete historical agent prompts and conversations are excluded.
+snapshot used in the historical experiments. Selected method-bearing
+Identify/Executive instructions are retained with source digests; the other
+inspected SOUL.md files were generic assistant templates. New operational
+workspaces and the restricted five-role adapter are marked as release additions.
+Complete historical workspaces and conversations remain excluded.
 
 ## Excluded
 
@@ -28,7 +31,8 @@ the workflow; complete historical agent prompts and conversations are excluded.
 - Agent memories, messages, task databases, logs and private OpenClaw settings.
 - API credentials, authentication files, local account identifiers and machine paths.
 
-The only demonstration is a script generating invented input locally. CI runs
+Demonstrations generate invented inputs locally and exercise the five-role
+protocol with offline fixtures or an explicitly selected live provider. CI runs
 functional checks, not the research experiments. The core release supports reuse
 of the framework; it does not reproduce or substantiate manuscript results.
 

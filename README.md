@@ -47,9 +47,14 @@ python -m pip install -e ".[images]"
 4. **Qualitative:** retain uncertain observations as review leads.
 5. **Summarize:** assemble association, model response and limitations separately.
 
-The Python runner is deterministic. Agent assistance proposes and routes candidates;
-it does not generate statistical values. The supplied OpenClaw role templates are
-optional and require manual setup: see [OpenClaw integration](docs/openclaw.md).
+The core Python runner is deterministic. Full public OpenClaw workspaces and a
+restricted five-role adapter are included. The offline contract demo checks
+handoffs without model calls; explicit live mode invokes an isolated runtime.
+Numerical evidence stays host-computed. See [OpenClaw integration](docs/openclaw.md).
+
+```powershell
+python examples/run_five_roles.py --mode offline --output outputs/five-role-demo
+```
 
 ## Measurements
 
@@ -90,7 +95,8 @@ not train models or manufacture verifier outputs.
 
 ```text
 cueaudit/          statistics, modules, image features, interventions, pipeline, CLI
-agents/            five sanitized role templates
+agents/            concise role descriptions
+openclaw/          full public workspaces, configuration template and protocol
 docs/              interface, OpenClaw setup, extraction scope
 examples/          local invented-input generator
 tests/             mathematical, state-transition and image checks
