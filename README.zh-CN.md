@@ -57,4 +57,10 @@ python examples/run_five_roles.py --mode offline --output outputs/five-role-demo
 真实 OpenClaw 模式需要自行配置模型与认证；本次未执行真实模型调用。
 
 详见[接口说明](docs/interface.md)、[OpenClaw 配置说明](docs/openclaw.md)
-和[公开范围](docs/release-scope.md)。初始版本尚未选择软件复用许可证。
+和[公开范围](docs/release-scope.md)。代码及公开工作空间文档采用
+[MIT 许可证](LICENSE)，第三方依赖保留各自许可，详见
+[第三方说明](THIRD_PARTY_NOTICES.md)。
+
+包含许可证的固定投稿版本为
+[v0.1.1-prl](https://github.com/PeiYuanHao/CueAudit-github/releases/tag/v0.1.1-prl)。
+先前的 `v0.1.0-prl` 标签保留原始代码状态。

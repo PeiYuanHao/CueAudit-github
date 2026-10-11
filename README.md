@@ -104,3 +104,13 @@ tests/             mathematical, state-transition and image checks
 
 See [release scope](docs/release-scope.md) for extraction boundaries and limitations.
 No experimental performance claims are published in this repository.
+
+## License and submission snapshot
+
+CueAudit code and public workspace documentation are provided under the
+[MIT License](LICENSE). External dependencies retain their own licenses; see
+[third-party dependency notes](THIRD_PARTY_NOTICES.md).
+
+The licensed submission snapshot is
+[v0.1.1-prl](https://github.com/PeiYuanHao/CueAudit-github/releases/tag/v0.1.1-prl).
+The earlier `v0.1.0-prl` tag is preserved at its original commit.

@@ -4,10 +4,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cueaudit"
-version = "0.1.0"
+version = "0.1.1"
 description = "Evidence-guided shortcut screening and verification for visual datasets"
 requires-python = ">=3.10"
 dependencies = []
+license = {file = "LICENSE"}
 
 [project.optional-dependencies]
 images = ["numpy>=1.24", "Pillow>=10", "opencv-python-headless>=4.8"]

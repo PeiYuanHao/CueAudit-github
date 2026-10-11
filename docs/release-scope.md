@@ -36,5 +36,9 @@ protocol with offline fixtures or an explicitly selected live provider. CI runs
 functional checks, not the research experiments. The core release supports reuse
 of the framework; it does not reproduce or substantiate manuscript results.
 
-No reuse license has been selected in this initial release. Public availability
-does not itself grant a permissive software license.
+CueAudit code and public workspace documents are provided under the root
+[MIT License](../LICENSE), following author confirmation. External dependencies
+retain their own terms; see [third-party notes](../THIRD_PARTY_NOTICES.md).
+The licensed submission snapshot is `v0.1.1-prl`; the original `v0.1.0-prl` tag
+remains at its original commit. This update changes licensing, package metadata
+and documentation, without adding research experiments or changing algorithms.
